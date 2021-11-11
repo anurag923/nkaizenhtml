@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Nkaizen Consulting Services</title>
+<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/layout.min.css">
+<link rel="stylesheet" href="css/fonts.min.css">
+</head>
+<body>
+<div class="wrapper">
+  <!-- Header -->
+  <div class="main-header">
+    <div class="logo-header" data-background-color="white"> <a href="index.html" class="logo"> <img src="images/nk-logo-sm.png" alt="navbar brand" class="navbar-brand"> </a>
+      <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"> <i class="icon-menu"></i> </span> </button>
+      <button class="topbar-toggler more"><i class="icon-options-vertical"></i></button>
+      <div class="nav-toggle">
+        <button class="btn btn-toggle toggle-sidebar"> <i class="icon-menu"></i> </button>
+      </div>
+    </div>
+    <nav class="navbar navbar-header navbar-expand-lg" data-background-color="white">
+      <div class="container-fluid">
+        <div class="collapse" id="search-nav">
+          <form class="navbar-left navbar-form nav-search mr-md-3">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <button type="submit" class="btn btn-search pr-1"> <i class="fa fa-search search-icon"></i> </button>
+              </div>
+              <input type="text" placeholder="Search ..." class="form-control">
+            </div>
+          </form>
+        </div>
+        <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+          <li class="nav-item toggle-nav-search hidden-caret"> <a class="nav-link" data-toggle="collapse" href="#search-nav" role="button" aria-expanded="false" aria-controls="search-nav"> <i class="fa fa-search"></i> </a> </li>
+          <li class="nav-item dropdown hidden-caret"> <a class="nav-link dropdown-toggle" href="#" id="notifDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-bell"></i> <span class="notification">4</span> </a>
+            <ul class="dropdown-menu notif-box animated fadeIn" aria-labelledby="notifDropdown">
+              <li>
+                <div class="dropdown-title">You have 4 new notification</div>
+              </li>
+              <li>
+                <div class="notif-scroll scrollbar-outer">
+                  <div class="notif-center"> <a href="#">
+                    <div class="notif-icon notif-primary"> <i class="fa fa-user-plus"></i> </div>
+                    <div class="notif-content"> <span class="block"> New user registered </span> <span class="time">5 minutes ago</span> </div>
+                    </a> <a href="#">
+                    <div class="notif-icon notif-success"> <i class="fa fa-comment"></i> </div>
+                    <div class="notif-content"> <span class="block"> commented on Admin </span> <span class="time">12 minutes ago</span> </div>
+                    </a> <a href="#">
+                    <div class="notif-img"> <img src="images/profile2.jpg" alt="Img Profile"> </div>
+                    <div class="notif-content"> <span class="block"> send messages to you </span> <span class="time">12 minutes ago</span> </div>
+                    </a> <a href="#">
+                    <div class="notif-icon notif-danger"> <i class="fa fa-heart"></i> </div>
+                    <div class="notif-content"> <span class="block"> liked Admin </span> <span class="time">17 minutes ago</span> </div>
+                    </a> </div>
+                </div>
+              </li>
+              <li> <a class="see-all" href="javascript:void(0);">See all notifications<i class="fa fa-angle-right"></i> </a> </li>
+            </ul>
+          </li>
+          <li><span class="text-muted m-2"> Damodhar Reddy, Admin</span> </li>
+          <li class="nav-item dropdown hidden-caret"> <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
+            <div class="avatar-sm"> <img src="images/profile.png" alt="..." class="avatar-img rounded-circle"> </div>
+            </a>
+            <ul class="dropdown-menu dropdown-user animated fadeIn">
+              <div class="dropdown-user-scroll scrollbar-outer">
+                <li>
+                  <div class="user-box">
+                    <div class="avatar-lg"><img src="images/profile.png" alt="image profile" class="avatar-img rounded"></div>
+                    <div class="u-text">
+                      <h4>Damodhar</h4>
+                      <p class="text-muted">Damodhar@gmail.com</p>
+                      <a href="profile.html" class="btn btn-xs btn-warning btn-sm">View Profile</a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="companyinfo.html"><i class="fa fa-building"></i> Company Info</a>
+                    <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="settings.html"><i class="fas fa-cog"></i> Settings</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="editprofile.html"><i class="fas fa-pencil-alt"></i> Edit Profile</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="index.html"><i class="fas fa-sign-out-alt"></i> Logout</a> </li>
+              </div>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Header -->
+  </div>
+  <!-- Sidebar Menu -->
+  <div class="sidebar sidebar-style-2">
+    <div class="sidebar-wrapper scrollbar scrollbar-inner">
+      <div class="sidebar-content">
+        <ul class="nav nav-primary">
+          <li class="nav-item "><a href="dashboard.html"><i class="fas fa-chart-line"></i>
+            <p>Dashboard</p>
+            </a> </li>
+          <li class="nav-item "> <a data-toggle="collapse" href="#base"> <i class="fas fa-layer-group"></i>
+            <p>Employees</p>
+            <span class="caret"></span> </a>
+            <div class="collapse " id="base">
+              <ul class="nav nav-collapse">
+                <li > <a href="emp-details.html"> <span class="sub-item">Employees Details </span> </a> </li>
+                <li > <a href="attendance.html"> <span class="sub-item">Attendence </span> </a> </li>
+                <li > <a href="loans.html"> <span class="sub-item">Loans</span> </a> </li>
+                <li > <a href="payslip.html"> <span class="sub-item">Payslip</span> </a> </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item active submenu"> <a data-toggle="collapse" href="#sidebarLayouts"> <i class="fa fa-user"></i>
+            <p>Clients</p>
+            <span class="caret"></span> </a>
+            <div class="collapse show" id="sidebarLayouts">
+              <ul class="nav nav-collapse">
+                <li class="active"> <a href="client-details.html"> <span class="sub-item">Client Details</span> </a> </li>
+                <li> <a href="contract.html"> <span class="sub-item">Contracts</span> </a> </li>
+                <li> <a href="license.html"> <span class="sub-item">License</span> </a> </li>
+                <li> <a href="client-attendance.html"> <span class="sub-item">Attendance</span> </a> </li>
+                <li> <a href="billing.html"> <span class="sub-item">Billing</span> </a> </li>
+                <li> <a href="receipt.html"> <span class="sub-item">Receipts</span> </a> </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item"><a href="inventory.html"><i class="fa fa-list-alt"></i>
+            <p>Inventroy</p>
+            </a> </li>
+          <li class="nav-item"> <a data-toggle="collapse" href="#tables"> <i class="fas fa-file-pdf"></i>
+            <p>Reports</p>
+            <span class="caret"></span> </a>
+            <div class="collapse" id="tables">
+              <ul class="nav nav-collapse">
+                  <li> <a href="emp-report.html"> <span class="sub-item">Employee</span> </a> </li>
+              <li> <a href="client-report.html"> <span class="sub-item">Clients</span> </a> </li>
+              </ul>
+            </div>
+          </li>
+          
+          <li class="nav-item"><a href="settings-branches.html"><i class="fa fa-building"></i>
+          <p>Branches </p>
+          </a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End Sidebar -->
+  <div class="main-panel">
+    <div class="content">
+      <div class="page-inner mt--2">
+        <div class="panel-header">
+          <div class="page-header">
+            <h4 class="page-title">Add New Client </h4>
+            <div class="ml-md-auto py-2 py-md-0"> <a href="addemp.html" id="" target="_self" class="btn btn-warning btn-sm"><i class="fa fa-user-plus"></i> Add New Client</a></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card full-height">
+              <div class="card-body">
+                 
+                <div class="row">
+                  <div class="col-md-6 col-lg-3">
+                    <div class="form-group">
+                      <label>Client ID</label>
+                     <input name="" type="text" value="ESS0145"  readonly="readonly" id="" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    
+                    <div class="form-group">
+                      <label>Contact Person</label>
+                     <input name="" type="text"  id="" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    
+                     
+                     <div class="form-group">
+                     <label>Email-ID</label>
+                     <input name="temailid" type="text"   id="xtemailid" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group">
+                     <label>Billing Details - 1</label>
+                     <input name="txtchno" type="text"   id="txtchno" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    
+                    <div class="form-group">
+                     <label>State</label>
+                    <select name="ddlstate"  id="ddlstate" tabindex="" class="form-control form-control-sm">
+	<option selected="selected" value="0">-Select-</option>
+	<option value="33">Andaman &amp; Nicobar Islands</option>
+	<option value="1">Andhra Pradesh</option>
+	<option value="2">Arunachal Pradesh</option>
+	<option value="3">Assam</option>
+	<option value="4">Bihar</option>
+	<option value="31">Chandigarh</option>
+	<option value="5">Chhattisgarh</option>
+	<option value="33">Dadra &amp; Nagar Haveli</option>
+	<option value="30">Delhi</option>
+	<option value="6">Goa</option>
+	<option value="7">Gujarat</option>
+	<option value="8">Haryana</option>
+	<option value="9">Himachal Pradesh</option>
+	<option value="10">Jammu and Kashmir</option>
+	<option value="11">Jharkhand</option>
+	<option value="12">Karnataka</option>
+	<option value="13">Kerala</option>
+	<option value="14">Madhya Pradesh</option>
+	<option value="15">Maharashtra</option>
+	<option value="16">Manipur</option>
+	<option value="17">Meghalaya</option>
+	<option value="18">Mizoram</option>
+	<option value="19">Nagaland</option>
+	<option value="20">Orissa</option>
+	<option value="35">Out of COuntry</option>
+	<option value="32">Puducherry</option>
+	<option value="21">Punjab</option>
+	<option value="22">Rajasthan</option>
+	<option value="23">Sikkim</option>
+	<option value="24">Tamil Nadu</option>
+	<option value="25">Telangana</option>
+	<option value="26">Tripura</option>
+	<option value="28">Uttar Pradesh</option>
+	<option value="27">Uttarakhand</option>
+	<option value="29">West Bengal</option>
+
+</select>
+                    </div>
+                    
+                    <div class="form-group">
+                     <label>Ship To - 1</label>
+                     <input name="txtShipToLine1" type="text"   id="txtShipToLine1" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group">
+                     <label>State</label>
+                    <select name="ddlShipToSate" id="ddlShipToSate" tabindex="" class="form-control form-control-sm">
+	<option selected="selected" value="0">-Select-</option>
+	<option value="33">Andaman &amp; Nicobar Islands</option>
+	<option value="1">Andhra Pradesh</option>
+	<option value="2">Arunachal Pradesh</option>
+	<option value="3">Assam</option>
+	<option value="4">Bihar</option>
+	<option value="31">Chandigarh</option>
+	<option value="5">Chhattisgarh</option>
+	<option value="33">Dadra &amp; Nagar Haveli</option>
+	<option value="30">Delhi</option>
+	<option value="6">Goa</option>
+	<option value="7">Gujarat</option>
+	<option value="8">Haryana</option>
+	<option value="9">Himachal Pradesh</option>
+	<option value="10">Jammu and Kashmir</option>
+	<option value="11">Jharkhand</option>
+	<option value="12">Karnataka</option>
+	<option value="13">Kerala</option>
+	<option value="14">Madhya Pradesh</option>
+	<option value="15">Maharashtra</option>
+	<option value="16">Manipur</option>
+	<option value="17">Meghalaya</option>
+	<option value="18">Mizoram</option>
+	<option value="19">Nagaland</option>
+	<option value="20">Orissa</option>
+	<option value="35">Out of COuntry</option>
+	<option value="32">Puducherry</option>
+	<option value="21">Punjab</option>
+	<option value="22">Rajasthan</option>
+	<option value="23">Sikkim</option>
+	<option value="24">Tamil Nadu</option>
+	<option value="25">Telangana</option>
+	<option value="26">Tripura</option>
+	<option value="28">Uttar Pradesh</option>
+	<option value="27">Uttarakhand</option>
+	<option value="29">West Bengal</option>
+
+</select>
+                    </div>
+                    
+                    <div class="form-group">
+                     <label>Buyer's Order No </label>
+                     <input name="txtBuyerOrderNo" type="text" id="txtBuyerOrderNo" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group">
+                     <label>ESI Branch</label>
+                    <select name="ddlEsibranch" id="ddlEsibranch" tabindex="" class="form-control form-control-sm">
+	<option value="-Select-">-Select-</option>
+
+</select>
+                    </div>
+                    
+                    <div class="form-group">
+                     <label>Bank Name</label>
+                   <input name="txtBankName" type="text" id="txtBankName" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    
+                  
+                    <div class="form-group">
+                    <input id="ChkSum" type="checkbox" name="ChkSum">
+                    <label>Sub Unit </label>
+                   
+                  </div>
+                    <div class="form-check">
+                    
+
+       <input id="ChkSum" type="checkbox" name="ChkSum"> <label>Main Unit <span class="txt-red">*</span></label>
+      <br>
+      
+      <label class="form-radio-label">
+       <input id="rdbmale" type="radio" name="optionsRadios" value="" tabindex="" class="form-radio-input" checked="">
+      <span class="form-radio-sign">Yes</span> </label>
+      <label class="form-radio-label ml-1">
+       <input id="rdbfemale" type="radio" name="optionsRadios" value="" tabindex="" class="form-radio-input" checked=""> 
+      <span class="form-radio-sign">No</span> </label>
+      
+    
+    </div>
+                     
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="form-group">
+                      <label>Name</label>
+                    <input name="" type="text" maxlength="200" id="" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    
+                    <div class="form-group">
+                      <label>Person Designation</label>
+                    <select name="$ddldesgn" id="ddldesgn" tabindex="" class="form-control form-control-sm">
+	<option value="-Select-">-Select-</option>
+	<option value="52"> A/E </option>
+	<option value="50">A/E</option>
+	<option value="85">ADDITIONAL AMOUNT FOR 4HRS(ASO)</option>
+	<option value="91">ADDITIONAL AMOUNT FOR 4HRS(HANDLER)</option>
+	<option value="83">ADDITIONAL AMOUNT FOR 4HRS(SECURITY GUARDS)</option>
+	<option value="41">Admin - Driver</option>
+	<option value="34">AMB DRVR</option>
+	<option value="2">ASO</option>
+	<option value="67">ASO (BASIC)</option>
+	<option value="66">ASO (HRA)</option>
+	<option value="68">ASO OT HRS</option>
+	<option value="87">ASO.</option>
+	<option value="21">ASO-EXSM</option>
+	<option value="58">AUTO CHARGES</option>
+	<option value="84">BASIC WAGES (ASO)</option>
+	<option value="81">BASIC WAGES (SECURITY GUARDS)</option>
+	<option value="92">BASIC(HANDLER)</option>
+	<option value="33">BENZ DRIVER</option>
+	<option value="13">BONUS</option>
+	<option value="80">BREAKDOWN MAINTENANCE CHARGES FOR THE MONTH OF MAR</option>
+	<option value="7">CHEMIST</option>
+	<option value="44">COOK</option>
+	<option value="38">CUTTER</option>
+	<option value="4">DEO</option>
+	<option value="90">DOZER SERVICE CHARGE (DATE:25/05/2021)</option>
+	<option value="79">DR</option>
+	<option value="28">DRVR</option>
+	<option value="8">ELE</option>
+	<option value="51">ELECT</option>
+	<option value="14">EPF EMPLOYER SHARE ON BASIC(13%)</option>
+	<option value="70">EPFO CHARGES (13%)</option>
+	<option value="15">ESI EMPLOYER SHARE ON BASIC &amp;HRA)3.25%)</option>
+	<option value="71">ESIC CHARGES (3.25%)</option>
+	<option value="74">F.O 1</option>
+	<option value="75">F.O 2</option>
+	<option value="76">F.O 3</option>
+	<option value="77">F.O 4</option>
+	<option value="78">F.O 5</option>
+	<option value="31">FE</option>
+	<option value="10">FIELD OFFICER</option>
+	<option value="55">FM</option>
+	<option value="45">FORKLIFT DRV</option>
+	<option value="73">G.M</option>
+	<option value="39">Gardner</option>
+	<option value="40">Gardner </option>
+	<option value="9">GM</option>
+	<option value="26">H/G</option>
+	<option value="6">HELPER</option>
+	<option value="16">HELPER OT HRS</option>
+	<option value="42">HELPERS</option>
+	<option value="24">HK-BOY</option>
+	<option value="30">HK-LADY</option>
+	<option value="3">HOUSEKEEPING</option>
+	<option value="12">HRA</option>
+	<option value="35">IDR</option>
+	<option value="53">Jr. Driver</option>
+	<option value="36">L BOY</option>
+	<option value="37">L GIRL</option>
+	<option value="32">Lab Asst.</option>
+	<option value="19">LADY GUARD</option>
+	<option value="49">LMV </option>
+	<option value="23">LSG</option>
+	<option value="56">MANAGER</option>
+	<option value="48">O/A</option>
+	<option value="29">O/BOY</option>
+	<option value="47">O/E</option>
+	<option value="11">OFFICE ASST</option>
+	<option value="46">PLUMBER</option>
+	<option value="43">PRO</option>
+	<option value="69">PROVIDING CONTRACT STAFF</option>
+	<option value="18">RELIVING CHARGES</option>
+	<option value="89">RFID CHARGES</option>
+	<option value="20">S/S</option>
+	<option value="22">S/S-EXSM</option>
+	<option value="27">SCAVENGER</option>
+	<option value="63">SECURITY FOOD INCENTIVE AND OTHER EXPENCES REIMBUR</option>
+	<option value="88">SECURITY GUARD.</option>
+	<option value="1">SECURITY GUARDS</option>
+	<option value="64">SECURITY GUARDS (BASIC)</option>
+	<option value="65">SECURITY GUARDS (HRA)</option>
+	<option value="61">SECURITY GUARDS EXTRA DUTES</option>
+	<option value="57">SECURITY GUARDS OT HRS</option>
+	<option value="62">SECURITY INCENTIVE AND OTHER EXPENCES REIMBURSEMEN</option>
+	<option value="72">SERVICE CHARGES (7%)</option>
+	<option value="25">SG CUM DRVR</option>
+	<option value="54">SIC</option>
+	<option value="5">SUP</option>
+	<option value="17">SUP OT HRS</option>
+	<option value="94">SUPERVISOR</option>
+	<option value="59">SUPPLY OF MANPOWER FOR MAINTENANCE WORK FOR THE MO</option>
+	<option value="60">SUPPLYOF MANPOWER FOR  MONTH OF NOV-2020</option>
+	<option value="86">VDA(ASO)</option>
+	<option value="93">VDA(HANDLER)</option>
+	<option value="82">VDA(SECURITY GUARDS)</option>
+
+</select>
+                    </div>
+                     <div class="form-group">
+                     <label>CC</label>
+                     <input name="txtcc" type="text"   id="txtcc" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    
+                    <div class="form-group">
+                     <label>Billing Details - 2</label>
+                     <input name="txtchno" type="text"   id="txtchno" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group">
+                     <label>State Code</label>
+                    <select name="ddlStateCode" id="ddlStateCode" tabindex="" class="form-control form-control-sm">
+	<option value="0">-Select-</option>
+	<option value="33">35</option>
+	<option value="1">37</option>
+	<option value="2">12</option>
+	<option value="3">18</option>
+	<option value="4">10</option>
+	<option value="31">04</option>
+	<option value="5">22</option>
+	<option value="33">26</option>
+	<option value="30">07</option>
+	<option value="6">30</option>
+	<option value="7">24</option>
+	<option value="8">06</option>
+	<option value="9">02</option>
+	<option value="10">01</option>
+	<option value="11">20</option>
+	<option value="12">29</option>
+	<option value="13">32</option>
+	<option value="14">23</option>
+	<option value="15">27</option>
+	<option value="16">14</option>
+	<option value="17">17</option>
+	<option value="18">15</option>
+	<option value="19">13</option>
+	<option value="20">21</option>
+	<option value="35"></option>
+	<option value="32">34</option>
+	<option value="21">03</option>
+	<option value="22">08</option>
+	<option value="23">11</option>
+	<option value="24">33</option>
+	<option value="25">36</option>
+	<option value="26">16</option>
+	<option value="28">09</option>
+	<option value="27">05</option>
+	<option value="29">19</option>
+
+</select>
+                    </div>
+                    
+                    <div class="form-group">
+                     <label>Ship To - 2</label>
+                     <input name="txtShipToLine2" type="text"   id="txtShipToLine2" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group">
+                     <label>State Code</label>
+                    <select name="dlShipToStateCode" id="dlShipToStateCode" tabindex="" class="form-control form-control-sm">
+	<option value="0">-Select-</option>
+	<option value="33">35</option>
+	<option value="1">37</option>
+	<option value="2">12</option>
+	<option value="3">18</option>
+	<option value="4">10</option>
+	<option value="31">04</option>
+	<option value="5">22</option>
+	<option value="33">26</option>
+	<option value="30">07</option>
+	<option value="6">30</option>
+	<option value="7">24</option>
+	<option value="8">06</option>
+	<option value="9">02</option>
+	<option value="10">01</option>
+	<option value="11">20</option>
+	<option value="12">29</option>
+	<option value="13">32</option>
+	<option value="14">23</option>
+	<option value="15">27</option>
+	<option value="16">14</option>
+	<option value="17">17</option>
+	<option value="18">15</option>
+	<option value="19">13</option>
+	<option value="20">21</option>
+	<option value="35"></option>
+	<option value="32">34</option>
+	<option value="21">03</option>
+	<option value="22">08</option>
+	<option value="23">11</option>
+	<option value="24">33</option>
+	<option value="25">36</option>
+	<option value="26">16</option>
+	<option value="28">09</option>
+	<option value="27">05</option>
+	<option value="29">19</option>
+
+</select>
+                    </div>
+                    
+                    <div class="form-group">
+                     <label>PT State</label>
+                      <select name="ddlPTState" id="ddlPTState" tabindex="" class="form-control form-control-sm">
+		<option value="0">-Select-</option>
+		<option value="33">Andaman &amp; Nicobar Islands</option>
+		<option value="1">Andhra Pradesh</option>
+		<option value="2">Arunachal Pradesh</option>
+		<option value="3">Assam</option>
+		<option value="4">Bihar</option>
+		<option value="31">Chandigarh</option>
+		<option value="5">Chhattisgarh</option>
+		<option value="33">Dadra &amp; Nagar Haveli</option>
+		<option value="30">Delhi</option>
+		<option value="6">Goa</option>
+		<option value="7">Gujarat</option>
+		<option value="8">Haryana</option>
+		<option value="9">Himachal Pradesh</option>
+		<option value="10">Jammu and Kashmir</option>
+		<option value="11">Jharkhand</option>
+		<option value="12">Karnataka</option>
+		<option value="13">Kerala</option>
+		<option value="14">Madhya Pradesh</option>
+		<option value="15">Maharashtra</option>
+		<option value="16">Manipur</option>
+		<option value="17">Meghalaya</option>
+		<option value="18">Mizoram</option>
+		<option value="19">Nagaland</option>
+		<option value="20">Orissa</option>
+		<option value="35">Out of COuntry</option>
+		<option value="32">Puducherry</option>
+		<option value="21">Punjab</option>
+		<option value="22">Rajasthan</option>
+		<option value="23">Sikkim</option>
+		<option value="24">Tamil Nadu</option>
+		<option value="25">Telangana</option>
+		<option value="26">Tripura</option>
+		<option value="28">Uttar Pradesh</option>
+		<option value="27">Uttarakhand</option>
+		<option value="29">West Bengal</option>
+
+	</select>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label>Location </label>
+                   <input name="ddllocation" type="text" id="ddllocation"  tabindex="" class="form-control form-control-sm">
+                     
+                    </div>
+                    
+                    <div class="form-group">
+                      <label>Bank branch </label>
+                   <input name="txtBankbranch" type="text" id="txtBankbranch" tabindex="" class="form-control form-control-sm">
+                     
+                    </div>
+                    
+                    <div class="form-check">
+      <label>Invoice<span class="txt-red">*</span></label>
+      <br>
+      <label class="form-radio-label">
+       <input id="rdbmale" type="radio" name="optionsRadios" value="" tabindex="" class="form-radio-input" checked="">
+      <span class="form-radio-sign">Yes</span> </label>
+      <label class="form-radio-label ml-1">
+       <input id="rdbfemale" type="radio" name="optionsRadios" value="" tabindex="" class="form-radio-input" checked=""> 
+      <span class="form-radio-sign">No</span> </label>
+      
+    
+    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="form-group">
+                      <label>Short Name<span class="txt-red">*</span></label>
+                      <input name="" type="text" maxlength="" id="" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group">
+                      <label>Phone No(s) </label>
+                     <input name="txtphonenumbers" type="text"  id="txtphonenumbers" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    
+                    <div class="form-group">
+                      <label>Our GSTIN </label>
+                    <select name="ddlOurGSTIN" id="ddlOurGSTIN" tabindex="" class="form-control form-control-sm">
+	<option value="0">36ADOPY4632R1ZF</option>
+	<option value="1">37ADOPY4632R1ZC</option>
+
+</select>
+                    </div>
+                    
+                   
+                    
+                    <div class="form-group">
+                     <label>Billing Details - 3</label>
+                     <input name="txtchno" type="text"   id="txtchno" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    
+                 
+                    
+                    <div class="form-group">
+                     <label>GSTIN/Unique ID</label>
+                    <input name="txtGSTUniqueID" type="text" id="txtGSTUniqueID" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    
+                   
+                    <div class="form-group">
+                     <label>Ship To - 3</label>
+                     <input name="txtShipToLine3" type="text"   id="txtShipToLine3" tabindex="" class="form-control form-control-sm">
+                    </div>
+                        <div class="form-group">
+                     <label>GSTIN/Unique ID</label>
+                    <input name="txtShipToGSTIN" type="text" id="txtShipToGSTIN" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    
+                        <div class="form-group">
+                     <label>LWF State</label>
+                   <select name="ddlLWFState" id="ddlLWFState" tabindex="" class="form-control form-control-sm">
+		<option value="0">-Select-</option>
+		<option value="33">Andaman &amp; Nicobar Islands</option>
+		<option value="1">Andhra Pradesh</option>
+		<option value="2">Arunachal Pradesh</option>
+		<option value="3">Assam</option>
+		<option value="4">Bihar</option>
+		<option value="31">Chandigarh</option>
+		<option value="5">Chhattisgarh</option>
+		<option value="33">Dadra &amp; Nagar Haveli</option>
+		<option value="30">Delhi</option>
+		<option value="6">Goa</option>
+		<option value="7">Gujarat</option>
+		<option value="8">Haryana</option>
+		<option value="9">Himachal Pradesh</option>
+		<option value="10">Jammu and Kashmir</option>
+		<option value="11">Jharkhand</option>
+		<option value="12">Karnataka</option>
+		<option value="13">Kerala</option>
+		<option value="14">Madhya Pradesh</option>
+		<option value="15">Maharashtra</option>
+		<option value="16">Manipur</option>
+		<option value="17">Meghalaya</option>
+		<option value="18">Mizoram</option>
+		<option value="19">Nagaland</option>
+		<option value="20">Orissa</option>
+		<option value="35">Out of COuntry</option>
+		<option value="32">Puducherry</option>
+		<option value="21">Punjab</option>
+		<option value="22">Rajasthan</option>
+		<option value="23">Sikkim</option>
+		<option value="24">Tamil Nadu</option>
+		<option value="25">Telangana</option>
+		<option value="26">Tripura</option>
+		<option value="28">Uttar Pradesh</option>
+		<option value="27">Uttarakhand</option>
+		<option value="29">West Bengal</option>
+
+	</select>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label>Branch <span class="txt-red">*</span></label>
+                    <select name="ddlBranch" id="ddlBranch" tabindex="" class="form-control form-control-sm">
+	<option value="0">-Select-</option>
+	<option value="1">HYDERABAD</option>
+
+</select>
+                     
+                    </div>
+                    
+                    <div class="form-group">
+                      <label>Bank Ac/No <span class="txt-red">*</span></label>
+                  <input name="txtBankAccountno" type="text" id="txtBankAccountno" tabindex="" class="form-control form-control-sm">
+                     
+                    </div>
+                    
+                    <div class="form-check">
+      <label>Paysheet <span class="txt-red">*</span></label>
+      <br>
+      <label class="form-radio-label">
+       <input id="rdbmale" type="radio" name="optionsRadios" value="" tabindex="" class="form-radio-input" checked="">
+      <span class="form-radio-sign">Yes</span> </label>
+      <label class="form-radio-label ml-1">
+       <input id="rdbfemale" type="radio" name="optionsRadios" value="" tabindex="" class="form-radio-input" checked=""> 
+      <span class="form-radio-sign">No</span> </label>
+      
+    
+    </div>
+    
+    
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                  <div class="form-group">
+                      <label>Segment</label>
+                      <select name="" id="" tabindex="" class="form-control form-control-sm">
+	<option value="-Select-">-Select-</option> 
+</select>
+                     
+                    </div>
+                    
+                    <div class="form-group">
+                      <label>Landline No</label>
+                    <input name="txtpin" type="text"  id="txtpin" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group">
+                      <label>Fax No.</label>
+                    <input name="txtfaxno" type="text"  id="txtfaxno" tabindex="" class="form-control form-control-sm">
+                     
+                    </div>
+                    <div class="form-group">
+                     <label>Billing Details - 4</label>
+                     <input name="txtchno" type="text"   id="txtchno" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    
+                    <div class="form-group">
+                     <label>PAN No</label>
+                    <input name="txtBilltoPanno" type="text" id="txtBilltoPanno" tabindex="" class="form-control form-control-sm">
+                    </div>
+                     <div class="form-group">
+                     <label>Ship To - 4</label>
+                     <input name="txtShipToLine4" type="text"   id="txtShipToLine4" tabindex="" class="form-control form-control-sm">
+                    </div>
+                     <div class="form-group">
+                     <label>PAN No</label>
+                    <input name="txtShipToGSTIN" type="text" id="txtShipToGSTIN" tabindex="" class="form-control form-control-sm">
+                    </div>
+                    
+                    <div class="form-group">
+                     <label>PF Branch</label>
+                   <select name="ddlPFbranch" id="ddlPFbranch" tabindex="" class="form-control form-control-sm">
+	<option value="-Select-">-Select-</option>
+
+</select>
+                    </div>
+                    
+                    <div class="form-group">
+                     <label>Bank Details</label>
+                  <select name="ddlBank"  id="ddlBank" tabindex="" class="form-control form-control-sm">
+	<option selected="selected" value="-Select-">-Select-</option>
+	<option value="IDBI BANK">IDBI BANK</option>
+	<option value="AXIS BANK LIMITED">AXIS BANK LIMITED</option>
+</select>
+                    </div>
+                    <div class="form-group">
+                     <label>IFSC code</label>
+                <input name="txtIFSCcode" type="text" id="txtIFSCcode" tabindex="" class="form-control form-control-sm">
+                    </div>
+                  </div>
+                </div>
+                <div class="row pull-right">
+                  <div class=" m-2  pull-right"> <a href="#" id="" target="_self" class="btn btn-info btn-sm"><i class="fas fa-save"></i> Save</a> <a href="#" id="" target="_self" class="btn btn-danger btn-sm"><i class="fas fa-times"></i> Cancel</a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container-fluid">
+        <nav class="pull-left">
+          <ul class="nav">
+            <li class="nav-item"> <a class="nav-link" href="terms.html"> Terms & Conditions </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="privacy.html"> Privacy Policy </a> </li>
+          </ul>
+        </nav>
+        <div class="copyright ml-auto"> &copy; 2021 <a href="#">Nkaizen Consulting Services</a></div>
+      </div>
+    </footer>
+  </div>
+</div>
+<script src="js/jquery.3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.scrollbar.min.js"></script>
+<script src="js/layout.min.js"></script>
+</body>
+</html>
